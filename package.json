@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Rahulk181/Portfolio/issues"
   },
-  "homepage": "https://github.com/Rahulk181/Portfolio#readme"
+  "homepage": "https://github.com/Rahulk181/Portfolio#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.9.1"
+  }
 }

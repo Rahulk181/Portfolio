@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nesting Unorder and Orderlist</title>
+    <!-- <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+        .list-red{
+            color: red;
+        }
+        .list-blue{
+            color: blue;
+        }
+        .list-green{
+            color: green;
+        }
+        body{
+            background-color:lightgray;
+            display: flex;
+            justify-content: center;
+        }
+        div{
+            height:350px;
+            width:300px;
+            background-color:white;
+            /* margin-top: 30px; */
+            padding:30px;
+            border:5px solid yellow;
+            border-radius:10px;
+            box-shadow:5px 5px 5px orangered;
+        }
+    </style>
+</head>
+<body>
+       <div>
+        <ol type="1">
+            <li class="list-red">Web Tech
+                <ol type="a">
+                        <li class="list-blue">Front-end Tech
+                            <ul type="none">
+                                <li class="bi bi-forward-fill list-green">HTML</li>
+                                <li class="bi bi-forward-fill list-green">CSS</li>
+                                <li class="bi bi-forward-fill list-green">JavaScript</li>
+                            </ul>
+                        </li>
+                          <li class="list-blue">Back-end Tech
+                            <ul type="none">
+                                <li class="bi bi-forward-fill list-green">Servlet</li>
+                                <li class="bi bi-forward-fill list-green">PHP</li>
+                                <li class="bi bi-forward-fill list-green">ASP.net</li>
+                            </ul>
+                          </li>
+                </ol>
+            </li>
+            <li class="list-red">Programming language
+                <ol type="a">
+                         <li class="list-blue">Procedural languages
+                            <ul type="none">
+                                <li class="bi bi-forward-fill list-green">C</li>
+                                <li class="bi bi-forward-fill list-green">Python</li>
+                                <li class="bi bi-forward-fill list-green">PL/SQL</li>
+                            </ul>
+                         </li>
+                         <li class="list-blue">OOP language
+                            <ul type="none">
+                                <li class="bi bi-forward-fill list-green">Java</li>
+                                <li class="bi bi-forward-fill list-green">.net</li>
+                            </ul>
+                         </li>
+                </ol>
+            </li>
+            
+        </ol>
+       </div>
+</body>
+</html>
